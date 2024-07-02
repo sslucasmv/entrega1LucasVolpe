@@ -4,7 +4,10 @@ const Navbar = () => {
         return <nav>
                 <div className="nav-center">
                 <div className="logo">
-                        <img src="https://github.com/sslucasmv/entrega1LucasVolpe/blob/main/src/images/logourbanshop.png" />
+                
+                        <img src="https://i.ibb.co/z8SnnbC/logourbanshop.png" alt="logourbanshop" border="0" />
+                               
+                    
                         <div className="logo-title">
                                 <span className="color-logo1">URBAN</span>
                                 <span  className="color-logo2">SHOP</span>
