@@ -4,6 +4,7 @@ import ItemListContainer from "./ItemListContainer";
 import Navbar from "./components/layout/Navbar";
 import productsMock from "./productsMock";
 
+
 function App() {
   const [products, setProducts] = useState([]);
 
