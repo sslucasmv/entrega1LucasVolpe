@@ -5,7 +5,6 @@ import { colors } from "@mui/material";
 const ItemCount = ({counter, addOne,subOne,stock}) => {
     return (
        <>
-    
        <div className="counter">
        <i class={`fa-solid fa-caret-left color-arrow ${counter === 1 ? 'disable' : ''}`} onClick={subOne}></i>
         <span className="text-span">{counter} / <span className="stock"> {stock}</span></span>
@@ -14,5 +13,4 @@ const ItemCount = ({counter, addOne,subOne,stock}) => {
        </>
     )
 }
-
 export default ItemCount;

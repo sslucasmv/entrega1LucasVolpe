@@ -385,7 +385,7 @@ nav img {
     width: 0%;
     height: 12px;
     padding:0 10px;
-    background:var(--bg-border-nav);
+    background-color:#33647c;;
     text-align: center;
     line-height: 30px;
     font-family: Arial, Helvetica, sans-serif;
