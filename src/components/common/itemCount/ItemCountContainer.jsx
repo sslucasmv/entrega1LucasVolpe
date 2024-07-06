@@ -1,32 +1,29 @@
-import { useState } from "react"
-import ItemCount from "./ItemCount"
+import { useState } from "react";
+import ItemCount from "./ItemCount";
 
+const ItemCountContainer = ({stock}) => {
 
+const [ counter,setCounter] = useState(1);
 
-export const ItemCountContainer = ( {stock }) => {
+console.log(stock.length)
 
-  const [counter,setCounter] = useState(1)
-
-  const addOne = () => {
-      if(counter < stock){
-        setCounter(counter + 1)
-      } else {
-        alert("No hay mas Stock")
-      }
-  }
-  
-
-  const subOne = () => {
-      if(counter > 1){
-        setCounter(counter - 1)
-      }
-  }
-
-
-
-  
-  return (
-   <ItemCount counter={counter} addOne={addOne} subOne={subOne} />
-  )
+const addOne = () => {
+    if(counter < stock) {
+        setCounter(counter + 1);
+} 
 }
 
+const subOne = () => {
+    if(counter > 1) {
+        setCounter(counter - 1);
+    } 
+}
+ 
+
+    return (
+        <ItemCount counter={counter} addOne={addOne} subOne={subOne} stock={stock}  />
+    )  
+}
+
+
+export default ItemCountContainer
