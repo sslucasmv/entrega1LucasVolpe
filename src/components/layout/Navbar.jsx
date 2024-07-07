@@ -7,7 +7,6 @@ return <nav>
                         <div className="logo">
                                 <a href="" className="link-logo">
                                         <img src="https://i.ibb.co/7Gjg8NB/logourbanshop.png"/>
-                                        
                                         <div className="logo-title">
                                                 <span className="color-logo1">URBAN</span>
                                                 <span  className="color-logo2">SHOP</span>
@@ -15,11 +14,11 @@ return <nav>
                                 </a>
                         </div>     
                         <ul className="navigation">
-                                <li><a href="">Toda las categorias</a></li>
-                                <li><a href="">Deportivas</a></li>
+                                <li><a href="">Indumentaria</a></li>
+                                <li><a href="">Running</a></li>
                                 <li><a href="">Urbanas</a></li>
-                                <li><a href="">Zapatilla</a></li>
-                                <li><a href="">Urbanas</a></li>
+                                <li><a href="">Kids</a></li>
+                                <li><a href="">Contacto</a></li>
                         </ul>
                         <div className="card-widget">
                                 <div className="icon-avatar">
